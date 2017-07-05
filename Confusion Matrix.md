@@ -1,4 +1,4 @@
-# confusion matrix
+# 1. confusion matrix
 
   If a classification system has been trained to distinguish between cats, dogs and rabbits, 
   a confusion matrix will summarize the results of testing the algorithm for further inspection. 
@@ -6,20 +6,20 @@
 Assuming a sample of 27 animals — 8 cats, 6 dogs, and 13 rabbits, the resulting confusion matrix could look like the table below: <br />
 ![images](/images/confusion_matrix.png "confusion_matrix")
 
-# table of confusion
+# 2. table of confusion
 
   It is a table with two rows and columns that reports the number of false positives, false negatives, true positives and true negatives.
   This allows more detailed analysis than mere proportion of correct guesses(accurcy). <br />
-  ![images](/images/table_of_confusion.png "table_of_confusion")
+  ![images](/images/table_of_confusion.png "table_of_confusion") <br /><br />
 
 
-# Terminology and derivations from a confusion matrix
+# 3. Terminology and derivations from a confusion matrix
 
   ## condition positive (P)
      The number of real positive cases in the data 
   ## condition negative (N)
-     the number of real negative cases in the data  
-
+     the number of real negative cases in the data <br /> 
+  
   ## true positve (TP)
      eqv. with hit
   ## true negative (TN)
