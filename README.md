@@ -1,7 +1,7 @@
 # Some-Concepts-in-ML
 There are some concepts in machine learning.
 
-## 1. [Confusion Matrix](/Confusion Matrix.md "Confusion Matrix.md")
+## 1. [Confusion Matrix](https://github.com/aszhaoweiguo/Some-Concepts-in-ML/blob/master/Confusion%20Matrix.md)
 
     confusion matrix
     table of confusion
