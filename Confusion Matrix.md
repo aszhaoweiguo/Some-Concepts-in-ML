@@ -18,7 +18,7 @@ Assuming a sample of 27 animals — 8 cats, 6 dogs, and 13 rabbits, the resultin
   ## condition positive (P)
      The number of real positive cases in the data 
   ## condition negative (N)
-     the number of real negative cases in the data <br /> 
+     the number of real negative cases in the data
   
   ## true positve (TP)
      eqv. with hit
@@ -58,6 +58,7 @@ Assuming a sample of 27 animals — 8 cats, 6 dogs, and 13 rabbits, the resultin
      
   ## F1-sorce : is the harmonic mean of precision and sensitivity
      F1 = 2 * PPV * TPR / (PPV + TPR) = 2 * TP / (2*TP + FP + FN)
-
+  
+ <br />
 sources: https://en.wikipedia.org/wiki/Confusion-matrix
 
