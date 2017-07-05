@@ -22,4 +22,6 @@ There are some concepts in machine learning.
     accuracy (ACC)
     F1-sorce
 
-## 2. 
+## 2. [Loss function](https://github.com/aszhaoweiguo/Some-Concepts-in-ML/blob/master/loss%20function.md)
+
+
