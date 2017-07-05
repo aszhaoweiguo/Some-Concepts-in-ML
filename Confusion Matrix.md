@@ -3,35 +3,14 @@
   If a classification system has been trained to distinguish between cats, dogs and rabbits, 
   a confusion matrix will summarize the results of testing the algorithm for further inspection. 
 
-Assuming a sample of 27 animals — 8 cats, 6 dogs, and 13 rabbits, the resulting confusion matrix could look like the table below:
-
-                     -----------------------------------
-                     |             predicted           |
-                     -----------------------------------
-                     |    Cat  |   Dog    |   Rabbit   |
-  ------------------------------------------------------
-  | Actual |  Cat    |     5   |    3     |     0      |
-  |        |--------------------------------------------
-  |        |  Dog    |     2   |    3     |     1      |  
-  |        |--------------------------------------------
-  |        |  Rabbit |     1   |    2     |     11     |
-  ------------------------------------------------------
-
+Assuming a sample of 27 animals — 8 cats, 6 dogs, and 13 rabbits, the resulting confusion matrix could look like the table below: <br />
+![images](/images/confusion_matrix.png "confusion_matrix")
 
 # table of confusion
 
   It is a table with two rows and columns that reports the number of false positives, false negatives, true positives and true negatives.
-  This allows more detailed analysis than mere proportion of correct guesses(accurcy).
-
-----------------------------------------------------------------------------
-|          5 true positives          |          3 false negatives          |
-| ( actual cats that were            | ( cats that were incorrectly        |
-|  correctly classified as cats)     |  marked as dogs)                    |
-----------------------------------------------------------------------------
-|          2 false positives         |          17 true negatives          |
-| ( non-cats animals that were       | ( all the remaining animals,        |
-|  incorrectly classified as cats)   |  correctly classified as non-cats)  |
-----------------------------------------------------------------------------
+  This allows more detailed analysis than mere proportion of correct guesses(accurcy). <br />
+  ![images](/images/table_of_confusion.png "table_of_confusion")
 
 
 # Terminology and derivations from a confusion matrix
